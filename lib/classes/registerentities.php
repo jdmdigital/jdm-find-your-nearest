@@ -83,10 +83,12 @@ class RegisterEntities {
             ),
 
             'register_meta_box_cb'  => array($this->metaBoxClass, 'addFYNMetaBox'),
+			
+			'menu_icon'			  => 'dashicons-location',
 
             'labels'  => array(
 
-                'name'  => esc_html__('Find Your Nearest', 'jdm-find-your-nearest'),
+                'name'  => esc_html__('Find Nearest', 'jdm-find-your-nearest'),
 
                 'all_items' => sprintf(esc_html__('All %ss', 'jdm-find-your-nearest'), $Item_Name),
 
