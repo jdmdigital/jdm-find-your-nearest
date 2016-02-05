@@ -1,0 +1,1351 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Find Your Nearest 0.3.0\n"
+"POT-Creation-Date: 2015-12-11 16:26+0100\n"
+"PO-Revision-Date: 2015-12-12 14:51+0100\n"
+"Last-Translator: Adam Sargant <adam@sargant.net>\n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: lib/classes/registerentities.php:24
+msgid "FYN Item"
+msgstr "FYN Item"
+
+#: lib/classes/registerentities.php:46 lib/widgets/searchformwidget.php:15
+msgid "Find Your Nearest"
+msgstr "Find Your Nearest"
+
+#: lib/classes/registerentities.php:47
+#, php-format
+msgid "All %ss"
+msgstr "All %ss"
+
+#: lib/classes/registerentities.php:49 lib/classes/registerentities.php:50
+#, php-format
+msgid "Add New %s"
+msgstr "Add New %s"
+
+#: lib/classes/registerentities.php:51
+#, php-format
+msgid "Edit %s"
+msgstr "Edit %s"
+
+#: lib/classes/registerentities.php:52
+#, php-format
+msgid "New %s"
+msgstr "New %s"
+
+#: lib/classes/registerentities.php:53
+#, php-format
+msgid "View %s"
+msgstr "View %s"
+
+#: lib/classes/registerentities.php:54
+#, php-format
+msgid "Search %ss"
+msgstr "Search %ss"
+
+#: lib/classes/registerentities.php:55
+#, php-format
+msgid "No %s Found"
+msgstr "No %s Found"
+
+#: lib/classes/registerentities.php:56
+#, php-format
+msgid "No %ss Found In Trash"
+msgstr "No %ss Found In Trash"
+
+#: lib/classes/registerentities.php:86
+msgid "Regional Category"
+msgstr "Regional Category"
+
+#: lib/classes/registerentities.php:87
+msgid "Edit Regional Category"
+msgstr "Edit Regional Category"
+
+#: lib/classes/registerentities.php:88
+msgid "Update Regional Category"
+msgstr "Update Regional Category"
+
+#: lib/classes/registerentities.php:89
+msgid "Add New Regional Category"
+msgstr "Add New Regional Category"
+
+#: lib/classes/registerentities.php:90
+msgid "New Regional Category Name"
+msgstr "New Regional Category Name"
+
+#: lib/classes/registerentities.php:91
+msgid "All Regional Categories"
+msgstr "All Regional Categories"
+
+#: lib/classes/registerentities.php:92
+msgid "Search Regional Categories"
+msgstr "Search Regional Categories"
+
+#: lib/classes/registerentities.php:93
+msgid "Popular Regional Categories"
+msgstr "Popular Regional Categories"
+
+#: lib/classes/registerentities.php:94
+msgid "Separate Regional Categories with commas"
+msgstr "Separate Regional Categories with commas"
+
+#: lib/classes/registerentities.php:95
+msgid "Add or remove Regional Categories"
+msgstr "Add or remove Regional Categories"
+
+#: lib/classes/registerentities.php:96
+msgid "Choose from the most popular Regional Categories"
+msgstr "Choose from the most popular Regional Categories"
+
+#: lib/classes/customoptionspanels.php:31
+msgid "Google Maps API Key"
+msgstr "Google Maps API Key GB"
+
+#: lib/classes/customoptionspanels.php:37
+msgid "Google API Console Key"
+msgstr "Google API Console Key"
+
+#: lib/classes/customoptionspanels.php:45
+#: lib/classes/customoptionspanels.php:51
+msgid "Distance Units"
+msgstr "Distance Units"
+
+#: lib/classes/customoptionspanels.php:59
+#: lib/classes/customoptionspanels.php:65
+msgid "Display Results"
+msgstr "Display Results"
+
+#: lib/classes/customoptionspanels.php:73
+#: lib/classes/customoptionspanels.php:79
+msgid "Item Name"
+msgstr "Item Name"
+
+#: lib/classes/customoptionspanels.php:87
+#: lib/classes/customoptionspanels.php:93
+msgid "Search Results Page"
+msgstr "Search Results Page"
+
+#: lib/classes/customoptionspanels.php:101
+#: lib/classes/customoptionspanels.php:107
+msgid "Country"
+msgstr "Country"
+
+#: lib/classes/customoptionspanels.php:118
+#, php-format
+msgid ""
+"The Google API Console Key is optional but recommended. Using an API key "
+"enables you to monitor your application's Maps API usage, and ensures that "
+"Google can contact you about your application if necessary. If your "
+"application's Maps API usage by exceeds the Usage Limits, you must load the "
+"Maps API using an API key in order to purchase additional quota. If you do "
+"not have a Google API Console Key you can get one <a href=\"%s\">here</a> ."
+msgstr ""
+"The Google API Console Key is optional but recommended. Using an API key "
+"enables you to monitor your application's Maps API usage, and ensures that "
+"Google can contact you about your application if necessary. If your "
+"application's Maps API usage by exceeds the Usage Limits, you must load the "
+"Maps API using an API key in order to purchase additional quota. If you do "
+"not have a Google API Console Key you can get one <a href=\"%s\">here</a> ."
+
+#: lib/classes/customoptionspanels.php:131
+msgid ""
+"Choose the units you want to display distance in. If unset, no distance will "
+"be shown."
+msgstr ""
+"Choose the units you want to display distance in. If unset, no distance will "
+"be shown."
+
+#: lib/classes/customoptionspanels.php:140
+msgid "Select Units"
+msgstr "Select Units"
+
+#: lib/classes/customoptionspanels.php:145
+msgid "Miles"
+msgstr "Miles"
+
+#: lib/classes/customoptionspanels.php:150
+msgid "Kilometres"
+msgstr "Kilometres"
+
+#: lib/classes/customoptionspanels.php:156
+msgid "Choose how many results you want returned from your search (max)"
+msgstr "Choose how many results you want returned from your search (max)"
+
+#: lib/classes/customoptionspanels.php:164
+msgid "Unlimited"
+msgstr "Unlimited"
+
+#: lib/classes/customoptionspanels.php:165
+msgid "One"
+msgstr "One"
+
+#: lib/classes/customoptionspanels.php:166
+msgid "Two"
+msgstr "Two"
+
+#: lib/classes/customoptionspanels.php:167
+msgid "Three"
+msgstr "Three"
+
+#: lib/classes/customoptionspanels.php:168
+msgid "Five"
+msgstr "Five"
+
+#: lib/classes/customoptionspanels.php:169
+msgid "Ten"
+msgstr "Ten"
+
+#: lib/classes/customoptionspanels.php:170
+msgid "Fifteen"
+msgstr "Fifteen"
+
+#: lib/classes/customoptionspanels.php:171
+msgid "Twentyfive"
+msgstr "Twentyfive"
+
+#: lib/classes/customoptionspanels.php:186
+msgid ""
+"Whatever you use here will be the names of the entities that people can "
+"search for"
+msgstr ""
+"Whatever you use here will be the names of the entities that people can "
+"search for"
+
+#: lib/classes/customoptionspanels.php:200
+msgid ""
+"Select the page you wish to use as your results page... all content on that "
+"page will be replaced with the search results"
+msgstr ""
+"Select the page you wish to use as your results page... all content on that "
+"page will be replaced with the search results"
+
+#: lib/classes/customoptionspanels.php:209
+msgid "Select Page"
+msgstr "Select Page"
+
+#: lib/classes/customoptionspanels.php:226
+msgid "Select the country you will be using this plugin in"
+msgstr "Select the country you will be using this plugin in"
+
+#: lib/classes/customoptionspanels.php:236
+msgid "Select Country"
+msgstr "Select Country"
+
+#: lib/classes/customoptionspanels.php:271
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#: lib/classes/countrycodesa.php:8
+msgid "Andorra"
+msgstr "Andorra"
+
+#: lib/classes/countrycodesa.php:9
+msgid "United Arab Emirates"
+msgstr "United Arab Emirates"
+
+#: lib/classes/countrycodesa.php:10
+msgid "Afghanistan"
+msgstr "Afghanistan"
+
+#: lib/classes/countrycodesa.php:11
+msgid "Antigua and Barbuda"
+msgstr "Antigua and Barbuda"
+
+#: lib/classes/countrycodesa.php:12
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#: lib/classes/countrycodesa.php:13
+msgid "Albania"
+msgstr "Albania"
+
+#: lib/classes/countrycodesa.php:14
+msgid "Armenia"
+msgstr "Armenia"
+
+#: lib/classes/countrycodesa.php:15
+msgid "Netherlands Antilles"
+msgstr "Netherlands Antilles"
+
+#: lib/classes/countrycodesa.php:16
+msgid "Angola"
+msgstr "Angola"
+
+#: lib/classes/countrycodesa.php:17
+msgid "Antarctica"
+msgstr "Antarctica"
+
+#: lib/classes/countrycodesa.php:18
+msgid "Argentina"
+msgstr "Argentina"
+
+#: lib/classes/countrycodesa.php:19
+msgid "American Samoa"
+msgstr "American Samoa"
+
+#: lib/classes/countrycodesa.php:20
+msgid "Austria"
+msgstr "Austria"
+
+#: lib/classes/countrycodesa.php:21
+msgid "Australia"
+msgstr "Australia"
+
+#: lib/classes/countrycodesa.php:22
+msgid "Aruba"
+msgstr "Aruba"
+
+#: lib/classes/countrycodesa.php:23
+msgid "Aland Islands"
+msgstr "Aland Islands"
+
+#: lib/classes/countrycodesa.php:24
+msgid "Azerbaijan"
+msgstr "Azerbaijan"
+
+#: lib/classes/countrycodesa.php:25
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnia and Herzegovina"
+
+#: lib/classes/countrycodesa.php:26
+msgid "Barbados"
+msgstr "Barbados"
+
+#: lib/classes/countrycodesa.php:27
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#: lib/classes/countrycodesa.php:28
+msgid "Belgium"
+msgstr "Belgium"
+
+#: lib/classes/countrycodesa.php:29
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: lib/classes/countrycodesa.php:30
+msgid "Bulgaria"
+msgstr "Bulgaria"
+
+#: lib/classes/countrycodesa.php:31
+msgid "Bahrain"
+msgstr "Bahrain"
+
+#: lib/classes/countrycodesa.php:32
+msgid "Burundi"
+msgstr "Burundi"
+
+#: lib/classes/countrycodesa.php:33
+msgid "Benin"
+msgstr "Benin"
+
+#: lib/classes/countrycodesa.php:34
+msgid "Bermuda"
+msgstr "Bermuda"
+
+#: lib/classes/countrycodesa.php:35
+msgid "Brunei Darussalam"
+msgstr "Brunei Darussalam"
+
+#: lib/classes/countrycodesa.php:36
+msgid "Bolivia"
+msgstr "Bolivia"
+
+#: lib/classes/countrycodesa.php:37
+msgid "Brazil"
+msgstr "Brazil"
+
+#: lib/classes/countrycodesa.php:38
+msgid "Bahamas"
+msgstr "Bahamas"
+
+#: lib/classes/countrycodesa.php:39
+msgid "Bhutan"
+msgstr "Bhutan"
+
+#: lib/classes/countrycodesa.php:40
+msgid "Bouvet Island"
+msgstr "Bouvet Island"
+
+#: lib/classes/countrycodesa.php:41
+msgid "Botswana"
+msgstr "Botswana"
+
+#: lib/classes/countrycodesa.php:42
+msgid "Belarus"
+msgstr "Belarus"
+
+#: lib/classes/countrycodesa.php:43
+msgid "Belize"
+msgstr "Belize"
+
+#: lib/classes/countrycodesa.php:44
+msgid "Canada"
+msgstr "Canada"
+
+#: lib/classes/countrycodesa.php:45
+msgid "Cocos (Keeling) Islands"
+msgstr "Cocos (Keeling) Islands"
+
+#: lib/classes/countrycodesa.php:46
+msgid "Democratic Republic of the Congo"
+msgstr "Democratic Republic of the Congo"
+
+#: lib/classes/countrycodesa.php:47
+msgid "Central African Republic"
+msgstr "Central African Republic"
+
+#: lib/classes/countrycodesa.php:48
+msgid "Congo"
+msgstr "Congo"
+
+#: lib/classes/countrycodesa.php:49
+msgid "Switzerland"
+msgstr "Switzerland"
+
+#: lib/classes/countrycodesa.php:50
+msgid "Cote D'Ivoire (Ivory Coast)"
+msgstr "Cote D'Ivoire (Ivory Coast)"
+
+#: lib/classes/countrycodesa.php:51
+msgid "Cook Islands"
+msgstr "Cook Islands"
+
+#: lib/classes/countrycodesa.php:52
+msgid "Chile"
+msgstr "Chile"
+
+#: lib/classes/countrycodesa.php:53
+msgid "Cameroon"
+msgstr "Cameroon"
+
+#: lib/classes/countrycodesa.php:54
+msgid "China"
+msgstr "China"
+
+#: lib/classes/countrycodesa.php:55
+msgid "Colombia"
+msgstr "Colombia"
+
+#: lib/classes/countrycodesa.php:56
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: lib/classes/countrycodesa.php:57
+msgid "Serbia and Montenegro"
+msgstr "Serbia and Montenegro"
+
+#: lib/classes/countrycodesa.php:58
+msgid "Cuba"
+msgstr "Cuba"
+
+#: lib/classes/countrycodesa.php:59
+msgid "Cape Verde"
+msgstr "Cape Verde"
+
+#: lib/classes/countrycodesa.php:60
+msgid "Christmas Island"
+msgstr "Christmas Island"
+
+#: lib/classes/countrycodesa.php:61
+msgid "Cyprus"
+msgstr "Cyprus"
+
+#: lib/classes/countrycodesa.php:62
+msgid "Czech Republic"
+msgstr "Czech Republic"
+
+#: lib/classes/countrycodesa.php:63
+msgid "Germany"
+msgstr "Germany"
+
+#: lib/classes/countrycodesa.php:64
+msgid "Djibouti"
+msgstr "Djibouti"
+
+#: lib/classes/countrycodesa.php:65
+msgid "Denmark"
+msgstr "Denmark"
+
+#: lib/classes/countrycodesa.php:66
+msgid "Dominica"
+msgstr "Dominica"
+
+#: lib/classes/countrycodesa.php:67
+msgid "Dominican Republic"
+msgstr "Dominican Republic"
+
+#: lib/classes/countrycodesa.php:68
+msgid "Algeria"
+msgstr "Algeria"
+
+#: lib/classes/countrycodesa.php:69
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: lib/classes/countrycodesa.php:70
+msgid "Estonia"
+msgstr "Estonia"
+
+#: lib/classes/countrycodesa.php:71
+msgid "Egypt"
+msgstr "Egypt"
+
+#: lib/classes/countrycodesa.php:72
+msgid "Western Sahara"
+msgstr "Western Sahara"
+
+#: lib/classes/countrycodesa.php:73
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#: lib/classes/countrycodesa.php:74
+msgid "Spain"
+msgstr "Spain"
+
+#: lib/classes/countrycodesa.php:75
+msgid "Ethiopia"
+msgstr "Ethiopia"
+
+#: lib/classes/countrycodesa.php:76
+msgid "Finland"
+msgstr "Finland"
+
+#: lib/classes/countrycodesa.php:77
+msgid "Fiji"
+msgstr "Fiji"
+
+#: lib/classes/countrycodesa.php:78
+msgid "Falkland Islands (Malvinas)"
+msgstr "Falkland Islands (Malvinas)"
+
+#: lib/classes/countrycodesa.php:79
+msgid "Federated States of Micronesia"
+msgstr "Federated States of Micronesia"
+
+#: lib/classes/countrycodesa.php:80
+msgid "Faroe Islands"
+msgstr "Faroe Islands"
+
+#: lib/classes/countrycodesa.php:81
+msgid "France"
+msgstr "France"
+
+#: lib/classes/countrycodesa.php:82
+msgid "France, Metropolitan"
+msgstr "France, Metropolitan"
+
+#: lib/classes/countrycodesa.php:83
+msgid "Gabon"
+msgstr "Gabon"
+
+#: lib/classes/countrycodesa.php:84
+msgid "Great Britain (UK)"
+msgstr "Great Britain (UK)"
+
+#: lib/classes/countrycodesa.php:85
+msgid "Grenada"
+msgstr "Grenada"
+
+#: lib/classes/countrycodesa.php:86
+msgid "Georgia"
+msgstr "Georgia"
+
+#: lib/classes/countrycodesa.php:87
+msgid "French Guiana"
+msgstr "French Guiana"
+
+#: lib/classes/countrycodesa.php:88
+msgid "Ghana"
+msgstr "Ghana"
+
+#: lib/classes/countrycodesa.php:89
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: lib/classes/countrycodesa.php:90
+msgid "Greenland"
+msgstr "Greenland"
+
+#: lib/classes/countrycodesa.php:91
+msgid "Gambia"
+msgstr "Gambia"
+
+#: lib/classes/countrycodesa.php:92
+msgid "Guinea"
+msgstr "Guinea"
+
+#: lib/classes/countrycodesa.php:93
+msgid "Guadeloupe"
+msgstr "Guadeloupe"
+
+#: lib/classes/countrycodesa.php:94
+msgid "Equatorial Guinea"
+msgstr "Equatorial Guinea"
+
+#: lib/classes/countrycodesa.php:95
+msgid "Greece"
+msgstr "Greece"
+
+#: lib/classes/countrycodesa.php:96
+msgid "S. Georgia and S. Sandwich Islands"
+msgstr "S. Georgia and S. Sandwich Islands"
+
+#: lib/classes/countrycodesa.php:97
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: lib/classes/countrycodesa.php:98
+msgid "Guam"
+msgstr "Guam"
+
+#: lib/classes/countrycodesa.php:99
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+#: lib/classes/countrycodesa.php:100
+msgid "Guyana"
+msgstr "Guyana"
+
+#: lib/classes/countrycodesa.php:101
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: lib/classes/countrycodesa.php:102
+msgid "Heard Island and McDonald Islands"
+msgstr "Heard Island and McDonald Islands"
+
+#: lib/classes/countrycodesa.php:103
+msgid "Honduras"
+msgstr "Honduras"
+
+#: lib/classes/countrycodesa.php:104
+msgid "Croatia (Hrvatska)"
+msgstr "Croatia (Hrvatska)"
+
+#: lib/classes/countrycodesa.php:105
+msgid "Haiti"
+msgstr "Haiti"
+
+#: lib/classes/countrycodesa.php:106
+msgid "Hungary"
+msgstr "Hungary"
+
+#: lib/classes/countrycodesa.php:107
+msgid "Indonesia"
+msgstr "Indonesia"
+
+#: lib/classes/countrycodesa.php:108
+msgid "Ireland"
+msgstr "Ireland"
+
+#: lib/classes/countrycodesa.php:109
+msgid "Israel"
+msgstr "Israel"
+
+#: lib/classes/countrycodesa.php:110
+msgid "India"
+msgstr "India"
+
+#: lib/classes/countrycodesa.php:111
+msgid "British Indian Ocean Territory"
+msgstr "British Indian Ocean Territory"
+
+#: lib/classes/countrycodesa.php:112
+msgid "Iraq"
+msgstr "Iraq"
+
+#: lib/classes/countrycodesa.php:113
+msgid "Iran"
+msgstr "Iran"
+
+#: lib/classes/countrycodesa.php:114
+msgid "Iceland"
+msgstr "Iceland"
+
+#: lib/classes/countrycodesa.php:115
+msgid "Italy"
+msgstr "Italy"
+
+#: lib/classes/countrycodesa.php:116
+msgid "Jamaica"
+msgstr "Jamaica"
+
+#: lib/classes/countrycodesa.php:117
+msgid "Jordan"
+msgstr "Jordan"
+
+#: lib/classes/countrycodesa.php:118
+msgid "Japan"
+msgstr "Japan"
+
+#: lib/classes/countrycodesa.php:119
+msgid "Kenya"
+msgstr "Kenya"
+
+#: lib/classes/countrycodesa.php:120
+msgid "Kyrgyzstan"
+msgstr "Kyrgyzstan"
+
+#: lib/classes/countrycodesa.php:121
+msgid "Cambodia"
+msgstr "Cambodia"
+
+#: lib/classes/countrycodesa.php:122
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: lib/classes/countrycodesa.php:123
+msgid "Comoros"
+msgstr "Comoros"
+
+#: lib/classes/countrycodesa.php:124
+msgid "Saint Kitts and Nevis"
+msgstr "Saint Kitts and Nevis"
+
+#: lib/classes/countrycodesa.php:125
+msgid "Korea (North)"
+msgstr "Korea (North)"
+
+#: lib/classes/countrycodesa.php:126
+msgid "Korea (South)"
+msgstr "Korea (South)"
+
+#: lib/classes/countrycodesa.php:127
+msgid "Kuwait"
+msgstr "Kuwait"
+
+#: lib/classes/countrycodesa.php:128
+msgid "Cayman Islands"
+msgstr "Cayman Islands"
+
+#: lib/classes/countrycodesa.php:129
+msgid "Kazakhstan"
+msgstr "Kazakhstan"
+
+#: lib/classes/countrycodesa.php:130
+msgid "Laos"
+msgstr "Laos"
+
+#: lib/classes/countrycodesa.php:131
+msgid "Lebanon"
+msgstr "Lebanon"
+
+#: lib/classes/countrycodesa.php:132
+msgid "Saint Lucia"
+msgstr "Saint Lucia"
+
+#: lib/classes/countrycodesa.php:133
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: lib/classes/countrycodesa.php:134
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: lib/classes/countrycodesa.php:135
+msgid "Liberia"
+msgstr "Liberia"
+
+#: lib/classes/countrycodesa.php:136
+msgid "Lesotho"
+msgstr "Lesotho"
+
+#: lib/classes/countrycodesa.php:137
+msgid "Lithuania"
+msgstr "Lithuania"
+
+#: lib/classes/countrycodesa.php:138
+msgid "Luxembourg"
+msgstr "Luxembourg"
+
+#: lib/classes/countrycodesa.php:139
+msgid "Latvia"
+msgstr "Latvia"
+
+#: lib/classes/countrycodesa.php:140
+msgid "Libya"
+msgstr "Libya"
+
+#: lib/classes/countrycodesa.php:141
+msgid "Morocco"
+msgstr "Morocco"
+
+#: lib/classes/countrycodesa.php:142
+msgid "Monaco"
+msgstr "Monaco"
+
+#: lib/classes/countrycodesa.php:143
+msgid "Moldova"
+msgstr "Moldova"
+
+#: lib/classes/countrycodesa.php:144
+msgid "Madagascar"
+msgstr "Madagascar"
+
+#: lib/classes/countrycodesa.php:145
+msgid "Marshall Islands"
+msgstr "Marshall Islands"
+
+#: lib/classes/countrycodesa.php:146
+msgid "Macedonia"
+msgstr "Macedonia"
+
+#: lib/classes/countrycodesa.php:147
+msgid "Mali"
+msgstr "Mali"
+
+#: lib/classes/countrycodesa.php:148
+msgid "Myanmar"
+msgstr "Myanmar"
+
+#: lib/classes/countrycodesa.php:149
+msgid "Mongolia"
+msgstr "Mongolia"
+
+#: lib/classes/countrycodesa.php:150
+msgid "Macao"
+msgstr "Macao"
+
+#: lib/classes/countrycodesa.php:151
+msgid "Northern Mariana Islands"
+msgstr "Northern Mariana Islands"
+
+#: lib/classes/countrycodesa.php:152
+msgid "Martinique"
+msgstr "Martinique"
+
+#: lib/classes/countrycodesa.php:153
+msgid "Mauritania"
+msgstr "Mauritania"
+
+#: lib/classes/countrycodesa.php:154
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: lib/classes/countrycodesa.php:155
+msgid "Malta"
+msgstr "Malta"
+
+#: lib/classes/countrycodesa.php:156
+msgid "Mauritius"
+msgstr "Mauritius"
+
+#: lib/classes/countrycodesa.php:157
+msgid "Maldives"
+msgstr "Maldives"
+
+#: lib/classes/countrycodesa.php:158
+msgid "Malawi"
+msgstr "Malawi"
+
+#: lib/classes/countrycodesa.php:159
+msgid "Mexico"
+msgstr "Mexico"
+
+#: lib/classes/countrycodesa.php:160
+msgid "Malaysia"
+msgstr "Malaysia"
+
+#: lib/classes/countrycodesa.php:161
+msgid "Mozambique"
+msgstr "Mozambique"
+
+#: lib/classes/countrycodesa.php:162
+msgid "Namibia"
+msgstr "Namibia"
+
+#: lib/classes/countrycodesa.php:163
+msgid "New Caledonia"
+msgstr "New Caledonia"
+
+#: lib/classes/countrycodesa.php:164
+msgid "Niger"
+msgstr "Niger"
+
+#: lib/classes/countrycodesa.php:165
+msgid "Norfolk Island"
+msgstr "Norfolk Island"
+
+#: lib/classes/countrycodesa.php:166
+msgid "Nigeria"
+msgstr "Nigeria"
+
+#: lib/classes/countrycodesa.php:167
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: lib/classes/countrycodesa.php:168
+msgid "Netherlands"
+msgstr "Netherlands"
+
+#: lib/classes/countrycodesa.php:169
+msgid "Norway"
+msgstr "Norway"
+
+#: lib/classes/countrycodesa.php:170
+msgid "Nepal"
+msgstr "Nepal"
+
+#: lib/classes/countrycodesa.php:171
+msgid "Nauru"
+msgstr "Nauru"
+
+#: lib/classes/countrycodesa.php:172
+msgid "Niue"
+msgstr "Niue"
+
+#: lib/classes/countrycodesa.php:173
+msgid "New Zealand (Aotearoa)"
+msgstr "New Zealand (Aotearoa)"
+
+#: lib/classes/countrycodesa.php:174
+msgid "Oman"
+msgstr "Oman"
+
+#: lib/classes/countrycodesa.php:175
+msgid "Panama"
+msgstr "Panama"
+
+#: lib/classes/countrycodesa.php:176
+msgid "Peru"
+msgstr "Peru"
+
+#: lib/classes/countrycodesa.php:177
+msgid "French Polynesia"
+msgstr "French Polynesia"
+
+#: lib/classes/countrycodesa.php:178
+msgid "Papua New Guinea"
+msgstr "Papua New Guinea"
+
+#: lib/classes/countrycodesa.php:179
+msgid "Philippines"
+msgstr "Philippines"
+
+#: lib/classes/countrycodesa.php:180
+msgid "Pakistan"
+msgstr "Pakistan"
+
+#: lib/classes/countrycodesa.php:181
+msgid "Poland"
+msgstr "Poland"
+
+#: lib/classes/countrycodesa.php:182
+msgid "Saint Pierre and Miquelon"
+msgstr "Saint Pierre and Miquelon"
+
+#: lib/classes/countrycodesa.php:183
+msgid "Pitcairn"
+msgstr "Pitcairn"
+
+#: lib/classes/countrycodesa.php:184
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: lib/classes/countrycodesa.php:185
+msgid "Palestinian Territory"
+msgstr "Palestinian Territory"
+
+#: lib/classes/countrycodesa.php:186
+msgid "Portugal"
+msgstr "Portugal"
+
+#: lib/classes/countrycodesa.php:187
+msgid "Palau"
+msgstr "Palau"
+
+#: lib/classes/countrycodesa.php:188
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: lib/classes/countrycodesa.php:189
+msgid "Qatar"
+msgstr "Qatar"
+
+#: lib/classes/countrycodesa.php:190
+msgid "Reunion"
+msgstr "Reunion"
+
+#: lib/classes/countrycodesa.php:191
+msgid "Romania"
+msgstr "Romania"
+
+#: lib/classes/countrycodesa.php:192
+msgid "Russian Federation"
+msgstr "Russian Federation"
+
+#: lib/classes/countrycodesa.php:193
+msgid "Rwanda"
+msgstr "Rwanda"
+
+#: lib/classes/countrycodesa.php:194
+msgid "Saudi Arabia"
+msgstr "Saudi Arabia"
+
+#: lib/classes/countrycodesa.php:195
+msgid "Solomon Islands"
+msgstr "Solomon Islands"
+
+#: lib/classes/countrycodesa.php:196
+msgid "Seychelles"
+msgstr "Seychelles"
+
+#: lib/classes/countrycodesa.php:197
+msgid "Sudan"
+msgstr "Sudan"
+
+#: lib/classes/countrycodesa.php:198
+msgid "Sweden"
+msgstr "Sweden"
+
+#: lib/classes/countrycodesa.php:199
+msgid "Singapore"
+msgstr "Singapore"
+
+#: lib/classes/countrycodesa.php:200
+msgid "Saint Helena"
+msgstr "Saint Helena"
+
+#: lib/classes/countrycodesa.php:201
+msgid "Slovenia"
+msgstr "Slovenia"
+
+#: lib/classes/countrycodesa.php:202
+msgid "Svalbard and Jan Mayen"
+msgstr "Svalbard and Jan Mayen"
+
+#: lib/classes/countrycodesa.php:203
+msgid "Slovakia"
+msgstr "Slovakia"
+
+#: lib/classes/countrycodesa.php:204
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+#: lib/classes/countrycodesa.php:205
+msgid "San Marino"
+msgstr "San Marino"
+
+#: lib/classes/countrycodesa.php:206
+msgid "Senegal"
+msgstr "Senegal"
+
+#: lib/classes/countrycodesa.php:207
+msgid "Somalia"
+msgstr "Somalia"
+
+#: lib/classes/countrycodesa.php:208
+msgid "Suriname"
+msgstr "Suriname"
+
+#: lib/classes/countrycodesa.php:209
+msgid "Sao Tome and Principe"
+msgstr "Sao Tome and Principe"
+
+#: lib/classes/countrycodesa.php:210
+msgid "USSR (former)"
+msgstr "USSR (former)"
+
+#: lib/classes/countrycodesa.php:211
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: lib/classes/countrycodesa.php:212
+msgid "Syria"
+msgstr "Syria"
+
+#: lib/classes/countrycodesa.php:213
+msgid "Swaziland"
+msgstr "Swaziland"
+
+#: lib/classes/countrycodesa.php:214
+msgid "Turks and Caicos Islands"
+msgstr "Turks and Caicos Islands"
+
+#: lib/classes/countrycodesa.php:215
+msgid "Chad"
+msgstr "Chad"
+
+#: lib/classes/countrycodesa.php:216
+msgid "French Southern Territories"
+msgstr "French Southern Territories"
+
+#: lib/classes/countrycodesa.php:217
+msgid "Togo"
+msgstr "Togo"
+
+#: lib/classes/countrycodesa.php:218
+msgid "Thailand"
+msgstr "Thailand"
+
+#: lib/classes/countrycodesa.php:219
+msgid "Tajikistan"
+msgstr "Tajikistan"
+
+#: lib/classes/countrycodesa.php:220
+msgid "Tokelau"
+msgstr "Tokelau"
+
+#: lib/classes/countrycodesa.php:221
+msgid "Timor-Leste"
+msgstr "Timor-Leste"
+
+#: lib/classes/countrycodesa.php:222
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+#: lib/classes/countrycodesa.php:223
+msgid "Tunisia"
+msgstr "Tunisia"
+
+#: lib/classes/countrycodesa.php:224
+msgid "Tonga"
+msgstr "Tonga"
+
+#: lib/classes/countrycodesa.php:225
+msgid "East Timor"
+msgstr "East Timor"
+
+#: lib/classes/countrycodesa.php:226
+msgid "Turkey"
+msgstr "Turkey"
+
+#: lib/classes/countrycodesa.php:227
+msgid "Trinidad and Tobago"
+msgstr "Trinidad and Tobago"
+
+#: lib/classes/countrycodesa.php:228
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: lib/classes/countrycodesa.php:229
+msgid "Taiwan"
+msgstr "Taiwan"
+
+#: lib/classes/countrycodesa.php:230
+msgid "Tanzania"
+msgstr "Tanzania"
+
+#: lib/classes/countrycodesa.php:231
+msgid "Ukraine"
+msgstr "Ukraine"
+
+#: lib/classes/countrycodesa.php:232
+msgid "Uganda"
+msgstr "Uganda"
+
+#: lib/classes/countrycodesa.php:233
+msgid "United Kingdom"
+msgstr "United Kingdom"
+
+#: lib/classes/countrycodesa.php:234
+msgid "United States Minor Outlying Islands"
+msgstr "United States Minor Outlying Islands"
+
+#: lib/classes/countrycodesa.php:235
+msgid "United States"
+msgstr "United States"
+
+#: lib/classes/countrycodesa.php:236
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: lib/classes/countrycodesa.php:237
+msgid "Uzbekistan"
+msgstr "Uzbekistan"
+
+#: lib/classes/countrycodesa.php:238
+msgid "Vatican City State (Holy See)"
+msgstr "Vatican City State (Holy See)"
+
+#: lib/classes/countrycodesa.php:239
+msgid "Saint Vincent and the Grenadines"
+msgstr "Saint Vincent and the Grenadines"
+
+#: lib/classes/countrycodesa.php:240
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: lib/classes/countrycodesa.php:241
+msgid "Virgin Islands (British)"
+msgstr "Virgin Islands (British)"
+
+#: lib/classes/countrycodesa.php:242
+msgid "Virgin Islands (U.S.)"
+msgstr "Virgin Islands (U.S.)"
+
+#: lib/classes/countrycodesa.php:243
+msgid "Viet Nam"
+msgstr "Viet Nam"
+
+#: lib/classes/countrycodesa.php:244
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: lib/classes/countrycodesa.php:245
+msgid "Wallis and Futuna"
+msgstr "Wallis and Futuna"
+
+#: lib/classes/countrycodesa.php:246
+msgid "Samoa"
+msgstr "Samoa"
+
+#: lib/classes/countrycodesa.php:247
+msgid "Yemen"
+msgstr "Yemen"
+
+#: lib/classes/countrycodesa.php:248
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#: lib/classes/countrycodesa.php:249
+msgid "Yugoslavia (former)"
+msgstr "Yugoslavia (former)"
+
+#: lib/classes/countrycodesa.php:250
+msgid "South Africa"
+msgstr "South Africa"
+
+#: lib/classes/countrycodesa.php:251
+msgid "Zambia"
+msgstr "Zambia"
+
+#: lib/classes/countrycodesa.php:252
+msgid "Zaire (former)"
+msgstr "Zaire (former)"
+
+#: lib/classes/countrycodesa.php:253
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+#: lib/classes/countrycodesa.php:254
+msgid "Business"
+msgstr "Business"
+
+#: lib/classes/countrycodesa.php:255
+msgid "Commercial"
+msgstr "Commercial"
+
+#: lib/classes/countrycodesa.php:256
+msgid "US Educational"
+msgstr "US Educational"
+
+#: lib/classes/countrycodesa.php:257
+msgid "US Government"
+msgstr "US Government"
+
+#: lib/classes/countrycodesa.php:258
+msgid "International"
+msgstr "International"
+
+#: lib/classes/countrycodesa.php:259
+msgid "US Military"
+msgstr "US Military"
+
+#: lib/classes/countrycodesa.php:260
+msgid "Network"
+msgstr "Network"
+
+#: lib/classes/countrycodesa.php:261
+msgid "Nonprofit Organization"
+msgstr "Nonprofit Organization"
+
+#: lib/classes/countrycodesa.php:262
+msgid "Professional Services"
+msgstr "Professional Services"
+
+#: lib/classes/countrycodesa.php:263
+msgid "Aeronautic"
+msgstr "Aeronautic"
+
+#: lib/classes/countrycodesa.php:264
+msgid "Arpanet Technical Infrastructure"
+msgstr "Arpanet Technical Infrastructure"
+
+#: lib/classes/countrycodesa.php:265
+msgid "Cooperative"
+msgstr "Cooperative"
+
+#: lib/classes/countrycodesa.php:266
+msgid "Info Domain"
+msgstr "Info Domain"
+
+#: lib/classes/countrycodesa.php:267
+msgid "Personal Name"
+msgstr "Personal Name"
+
+#: lib/classes/countrycodesa.php:268
+msgid "North Atlantic Treaty Organization"
+msgstr "North Atlantic Treaty Organization"
+
+#: lib/classes/metaboxes.php:6
+msgid "WP Find Your Nearest Premium"
+msgstr "WP Find Your Nearest Premium"
+
+#: lib/classes/metaboxes.php:11
+msgid "Postal Code Data"
+msgstr "Zip Code Data"
+
+#: lib/classes/metaboxes.php:16 lib/classes/metaboxes.php:58
+msgid ""
+"The Find Your Nearest Premium plugin is not currently available, but a new "
+"enhanced version is under development"
+msgstr ""
+"The Find Your Nearest Premium plugin is not currently available, but a new "
+"enhanced version is under development"
+
+#: lib/classes/metaboxes.php:27
+msgid "Postal Code"
+msgstr "Zip Code"
+
+#: lib/classes/metaboxes.php:30
+msgid "Update Latitude and Longitude"
+msgstr "Update Latitude and Longitude"
+
+#: lib/classes/metaboxes.php:33
+msgid "Latitude"
+msgstr "Latitude"
+
+#: lib/classes/metaboxes.php:36
+msgid "Longitude"
+msgstr "Longitude"
+
+#: lib/widgets/searchformwidget.php:8
+msgid "Find Your Nearest Search Form"
+msgstr "Find Your Nearest Search Form"
+
+#: lib/widgets/searchformwidget.php:10
+msgid "FYN - Search Form"
+msgstr "FYN - Search Form"
+
+#: lib/widgets/searchformwidget.php:15
+msgid "Enter your postcode to 'find your nearest'"
+msgstr "Enter your zipcode to 'find your nearest'"
+
+#: lib/widgets/searchformwidget.php:21
+msgid "Title"
+msgstr "Title"
+
+#: lib/widgets/searchformwidget.php:22
+msgid "Descriptive Text"
+msgstr "Descriptive Text"
+
+#: lib/widgets/searchformwidget.php:47
+msgid "Enter Postal Code"
+msgstr "Enter Zip Code"
+
+#: lib/widgets/searchformwidget.php:49
+msgid "Search"
+msgstr "Search"
