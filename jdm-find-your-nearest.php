@@ -76,7 +76,21 @@ foreach (glob(dirname(__FILE__) . '/lib/widgets/*.php') as $widgetfilename) {
 
 }
 
-
+if(!function_exists('getall_service_icons')) {
+	function getall_service_icons() {
+		$postID = get_the_ID();
+		$term_list = wp_get_post_terms( $postID, 'service_category', array("fields" => "all") );
+		$html = '<ul class="list-inline list-services">'."\n";
+		foreach($term_list as $term_single) {
+			if(($term_single->term_id) != 118) {
+				// Services "should" have a term ID greater than 30.
+				$html .= '	<li id="'.$term_single->term_id.'" class="service-list-icon"><a href="../../'.$term_single->slug.'" class="btn btn-link" data-toggle="tooltip" title="'.$term_single->name.'"><i class="icon-'.$term_single->slug.'"></i></a></li>'."\n";
+			}
+		}
+		$html .= '</ul>'. "\n";
+		return $html;
+	}
+}
 
 //to be refactored before release!!
 add_action('wp_ajax_return_search_results', array(WPFindYourNearest::ajaxFunctions(), 'returnSearchResults'));
