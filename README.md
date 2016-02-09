@@ -19,6 +19,11 @@ This plug-in has been tested with US zipcodes among others, optimized for Bootst
 
 ## Changelog
 
+**1.0.1**
+
+* Swopped `the_excerpt()` for a more advanced use of `get_the_content()`.
+* Updated version number.
+
 **1.0.0**
 
 * Forked by jdm-labs and customized
