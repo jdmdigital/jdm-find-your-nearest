@@ -34,8 +34,8 @@ class AjaxFunctions{
                 }
                 $miles = $dist * 60 * 1.1515;
                 $content = get_the_content('');
-                //$content = nl2br($content);
-                //$content = str_replace('><br />', '>', $content);
+                $content = nl2br($content);
+                $content = str_replace('><br />', '>', $content);
                 $title=get_the_title();
 				$link = get_permalink();
                 switch ($Distance_Units) {
