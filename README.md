@@ -19,6 +19,12 @@ This plug-in has been tested with US zipcodes among others, optimized for Bootst
 
 ## Changelog
 
+**1.1.0**
+
+* Included extra functions from test theme into plugin core.
+* Updated version number.
+* Created release.
+
 **1.0.1**
 
 * Swopped `the_excerpt()` for a more advanced use of `get_the_content()`.

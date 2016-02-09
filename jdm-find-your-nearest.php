@@ -4,7 +4,7 @@
 * Plugin Name: JDM Find Your Nearest
 * Plugin URI: http://labs.jdmdigital.co/code/jdm-find-your-nearest/
 * Description: "Find Your Nearest" creates a custom post type which can be associated with a latitude and longitude calculated from your local postal code, which can then be sorted by distance from a postal code entered into a search field.
-* Version: 1.0.1
+* Version: 1.1.0
 * Text Domain: jdm-find-your-nearest
 * Domain Path: /languages
 * Author: JDM Digital
@@ -18,7 +18,7 @@
 
 $options= get_option('aphs_FYN_options');
 
-$options['version'] = '1.0.1';
+$options['version'] = '1.1.0';
 
 update_option('aphs_FYN_options', $options);
 
@@ -76,6 +76,23 @@ foreach (glob(dirname(__FILE__) . '/lib/widgets/*.php') as $widgetfilename) {
 
 }
 
+// == FUNCTIONS ADDED as part of v1.1.0
+if(!function_exists('getall_services')) {
+	function getall_services() {
+		$postID = get_the_ID();
+		$term_list = wp_get_post_terms( $postID, 'service_category', array("fields" => "all") );
+		$html = '<ul class="nav nav-pills services-list">'."\n";
+		foreach($term_list as $term_single) {
+			//if(($term_single->term_id) > 30) {
+				// Services "should" have a term ID greater than 30.
+				$html .= '	<li id="'.$term_single->term_id.'" class="service-list-item"><a href="../../'.$term_single->slug.'">'.$term_single->name.'</a></li>'."\n";
+			//}
+		}
+		$html .= '</ul>'. "\n";
+		return $html;
+	}
+}
+	
 if(!function_exists('getall_service_icons')) {
 	function getall_service_icons() {
 		$postID = get_the_ID();
@@ -88,6 +105,20 @@ if(!function_exists('getall_service_icons')) {
 			}
 		}
 		$html .= '</ul>'. "\n";
+		return $html;
+	}
+}
+
+if(!function_exists('get_location_state')) {	
+	function get_location_state() {
+		$postID = get_the_ID();
+		$term_list = wp_get_post_terms( $postID, 'regional_category', array("fields" => "all") );
+		foreach($term_list as $term_single) {
+			//if(($term_single->term_id) < 30) {
+				// Services "should" have a term ID greater than 30.
+			$html = '<a href="../../'.$term_single->slug.'">'.$term_single->name.'</a>'."\n";
+			//}
+		}
 		return $html;
 	}
 }
