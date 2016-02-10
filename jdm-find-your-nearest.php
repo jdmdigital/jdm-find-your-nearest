@@ -85,7 +85,8 @@ if(!function_exists('getall_services')) {
 		foreach($term_list as $term_single) {
 			//if(($term_single->term_id) > 30) {
 				// Services "should" have a term ID greater than 30.
-				$html .= '	<li id="'.$term_single->term_id.'" class="service-list-item"><a href="../../'.$term_single->slug.'">'.$term_single->name.'</a></li>'."\n";
+				//WITH LINKS $html .= '	<li id="'.$term_single->term_id.'" class="service-list-item"><a href="../../'.$term_single->slug.'">'.$term_single->name.'</a></li>'."\n";
+				$html .= '	<li id="'.$term_single->term_id.'" class="service-list-item"><span>'.$term_single->name.'</span></li>'."\n";
 			//}
 		}
 		$html .= '</ul>'. "\n";
@@ -101,7 +102,8 @@ if(!function_exists('getall_service_icons')) {
 		foreach($term_list as $term_single) {
 			if(($term_single->term_id) != 118) {
 				// Services "should" have a term ID greater than 30.
-				$html .= '	<li id="'.$term_single->term_id.'" class="service-list-icon"><a href="../../'.$term_single->slug.'" class="btn btn-link" data-toggle="tooltip" title="'.$term_single->name.'"><i class="icon-'.$term_single->slug.'"></i></a></li>'."\n";
+				// WITH LINKS: $html .= '	<li id="'.$term_single->term_id.'" class="service-list-icon"><a href="/location/'.$term_single->slug.'" class="btn btn-link" data-toggle="tooltip" title="'.$term_single->name.'"><i class="icon-'.$term_single->slug.'"></i></a></li>'."\n";
+				$html .= '	<li id="'.$term_single->term_id.'" class="service-list-icon"><span class="btn btn-link" data-toggle="tooltip" title="'.$term_single->name.'"><i class="icon-'.$term_single->slug.'"></i></span></li>'."\n";
 			}
 		}
 		$html .= '</ul>'. "\n";
