@@ -4,7 +4,7 @@
 * Plugin Name: JDM Find Your Nearest
 * Plugin URI: http://labs.jdmdigital.co/code/jdm-find-your-nearest/
 * Description: "Find Your Nearest" creates a custom post type which can be associated with a latitude and longitude calculated from your local postal code, which can then be sorted by distance from a postal code entered into a search field.
-* Version: 1.1.0
+* Version: 1.1.1
 * Text Domain: jdm-find-your-nearest
 * Domain Path: /languages
 * Author: JDM Digital
@@ -18,7 +18,7 @@
 
 $options= get_option('aphs_FYN_options');
 
-$options['version'] = '1.1.0';
+$options['version'] = '1.1.1';
 
 update_option('aphs_FYN_options', $options);
 
@@ -108,6 +108,26 @@ if(!function_exists('getall_service_icons')) {
 		}
 		$html .= '</ul>'. "\n";
 		return $html;
+	}
+}
+
+if(!function_exists('getall_service_classes')) {
+	function getall_service_classes() {
+		$postID = get_the_ID();
+		$term_list = wp_get_post_terms( $postID, 'service_category', array("fields" => "all") );
+		
+		$classes  = '';
+		foreach($term_list as $term_single) {
+			$classes .= ' service-'.$term_single->term_id;
+		}
+		$haulpos = strpos($classes, 'service-118');
+		
+		if($haulpos === false) {
+			$classes .= ' not-hauling';
+		} else {
+			$classes .= ' hauling-loc';
+		}
+		return $classes;
 	}
 }
 

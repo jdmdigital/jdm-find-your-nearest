@@ -19,6 +19,11 @@ This plug-in has been tested with US zipcodes among others, optimized for Bootst
 
 ## Changelog
 
+**1.1.1**
+
+* New functions added and more customization to ajaxfuncitons
+* Updated version number.
+
 **1.1.0**
 
 * Included extra functions from test theme into plugin core.
