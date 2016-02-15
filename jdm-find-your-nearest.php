@@ -145,6 +145,7 @@ if(!function_exists('get_location_state')) {
 	}
 }
 
+
 //to be refactored before release!!
 add_action('wp_ajax_return_search_results', array(WPFindYourNearest::ajaxFunctions(), 'returnSearchResults'));
 add_action('wp_ajax_nopriv_return_search_results', array(WPFindYourNearest::ajaxFunctions(), 'returnSearchResults'));
