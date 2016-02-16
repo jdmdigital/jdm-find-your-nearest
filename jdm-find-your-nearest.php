@@ -92,12 +92,13 @@ if(!function_exists('getall_services')) {
 		return $html;
 	}
 }
-	
+
+// Updated in v2
 if(!function_exists('getall_service_icons')) {
 	function getall_service_icons() {
 		$postID = get_the_ID();
 		$term_list = wp_get_post_terms( $postID, 'service_category', array("fields" => "all") );
-		$html = '<ul class="list-inline list-services">'."\n";
+		$html = '<p class="margin-left"><strong>Services Offered:</strong></p>'."\n".'<ul class="list-inline list-services">'."\n";
 		foreach($term_list as $term_single) {
 			if(($term_single->term_id) != 118) {
 				// Services "should" have a term ID greater than 30.
