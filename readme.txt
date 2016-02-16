@@ -36,22 +36,25 @@ This plug-in has been tested with US zipcodes among others, optimized for Bootst
 
 == Changelog ==
 
-=2.0.0=
+= 2.0.0 =
 * Fix issue #4
 * Update version number to v2.0.0 (production)
 * Create release (also v2).
 
-=1.2.0=
+= 1.2.0 =
 * New functions added and more customization to ajaxfuncitons
 * Updated version number.
+
 
 = 1.1.0 =
 * Included extra functions from test theme into plugin core.
 * Updated version number.
 * Created release.
 
+
 = 1.0.1 =
 * Swopped the_excerpt for a more advanced use of get_the_content.
+
 
 = 1.0.0 =
 * Forked by jdm-labs and customized
@@ -59,11 +62,10 @@ This plug-in has been tested with US zipcodes among others, optimized for Bootst
 = 0.3.1 =
 * Fix bug that caused conflict with some other plugins
 
+
 = 0.3.0 =
 * Full code refactor
-
 * Full internationalisation
-
 * Remove information regarding premium version of plugin
 
 
@@ -104,6 +106,8 @@ This plug-in has been tested with US zipcodes among others, optimized for Bootst
 
 == Upgrade Notice ==
 
+= 2.0.0 =
+* Ready for prime-time.
 
 
 
