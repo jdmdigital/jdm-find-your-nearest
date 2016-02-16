@@ -11,7 +11,7 @@ Forked from SocialEvolution's "Find Your Nearest", this custom JDM plugin create
 
 This plug-in creates a custom post type associated with a lat/long calculated from an entered location's address. You can create as many entries as you want, associate them with latitude and longitude using the Google Map API and allow your visitors to search for their nearest item by entering their own postal code.
 
-This plug-in has been tested with US zipcodes among others, optimized for Bootstrap v3.x, with numerous improvements over the original plugin, now maintained by SocialEvolution.
+This plug-in has been tested with US zipcodes among others, optimized for Bootstrap v3.x, with numerous improvements over the original plugin by SocialEvolution.
 
 
 == Installation ==
