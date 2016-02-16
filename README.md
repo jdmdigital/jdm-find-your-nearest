@@ -19,6 +19,12 @@ This plug-in has been tested with US zipcodes among others, optimized for Bootst
 
 ## Changelog
 
+**2.0.0**
+
+* Fix issue #4
+* Update version number to v2.0.0 (production)
+* Create release (also v2).
+
 **1.2.0**
 
 * New functions added and more customization to ajaxfuncitons

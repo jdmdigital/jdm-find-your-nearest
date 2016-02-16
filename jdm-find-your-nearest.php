@@ -4,7 +4,7 @@
 * Plugin Name: JDM Find Your Nearest
 * Plugin URI: http://labs.jdmdigital.co/code/jdm-find-your-nearest/
 * Description: "Find Your Nearest" creates a custom post type which can be associated with a latitude and longitude calculated from your local postal code, which can then be sorted by distance from a postal code entered into a search field.
-* Version: 1.2.0
+* Version: 2.0.0
 * Text Domain: jdm-find-your-nearest
 * Domain Path: /languages
 * Author: JDM Digital
@@ -18,7 +18,7 @@
 
 $options= get_option('aphs_FYN_options');
 
-$options['version'] = '1.2.0';
+$options['version'] = '2.0.0';
 
 update_option('aphs_FYN_options', $options);
 
@@ -85,8 +85,7 @@ if(!function_exists('getall_services')) {
 		foreach($term_list as $term_single) {
 			//if(($term_single->term_id) > 30) {
 				// Services "should" have a term ID greater than 30.
-				//WITH LINKS $html .= '	<li id="'.$term_single->term_id.'" class="service-list-item"><a href="../../'.$term_single->slug.'">'.$term_single->name.'</a></li>'."\n";
-				$html .= '	<li id="'.$term_single->term_id.'" class="service-list-item"><span>'.$term_single->name.'</span></li>'."\n";
+				$html .= '	<li id="'.$term_single->term_id.'" class="service-list-item"><a href="../../'.$term_single->slug.'">'.$term_single->name.'</a></li>'."\n";
 			//}
 		}
 		$html .= '</ul>'. "\n";
@@ -102,8 +101,7 @@ if(!function_exists('getall_service_icons')) {
 		foreach($term_list as $term_single) {
 			if(($term_single->term_id) != 118) {
 				// Services "should" have a term ID greater than 30.
-				// WITH LINKS: $html .= '	<li id="'.$term_single->term_id.'" class="service-list-icon"><a href="/location/'.$term_single->slug.'" class="btn btn-link" data-toggle="tooltip" title="'.$term_single->name.'"><i class="icon-'.$term_single->slug.'"></i></a></li>'."\n";
-				$html .= '	<li id="'.$term_single->term_id.'" class="service-list-icon"><span class="btn btn-link" data-toggle="tooltip" title="'.$term_single->name.'"><i class="icon-'.$term_single->slug.'"></i></span></li>'."\n";
+				$html .= '	<li id="'.$term_single->term_id.'" class="service-list-icon"><a href="../../'.$term_single->slug.'" class="btn btn-link" data-toggle="tooltip" title="'.$term_single->name.'"><i class="icon-'.$term_single->slug.'"></i></a></li>'."\n";
 			}
 		}
 		$html .= '</ul>'. "\n";
@@ -111,22 +109,24 @@ if(!function_exists('getall_service_icons')) {
 	}
 }
 
+// since version 2.0.0
 if(!function_exists('getall_service_classes')) {
 	function getall_service_classes() {
 		$postID = get_the_ID();
 		$term_list = wp_get_post_terms( $postID, 'service_category', array("fields" => "all") );
+		$classes = '';
 		
-		$classes  = '';
 		foreach($term_list as $term_single) {
-			$classes .= ' service-'.$term_single->term_id;
+			$classes .= ' '.$term_single->slug;
 		}
-		$haulpos = strpos($classes, 'service-118');
 		
-		if($haulpos === false) {
+		$pos = strpos($classes, 'hauling');
+		if ($pos === false) {
 			$classes .= ' not-hauling';
 		} else {
 			$classes .= ' hauling-loc';
 		}
+		
 		return $classes;
 	}
 }
@@ -144,7 +144,6 @@ if(!function_exists('get_location_state')) {
 		return $html;
 	}
 }
-
 
 //to be refactored before release!!
 add_action('wp_ajax_return_search_results', array(WPFindYourNearest::ajaxFunctions(), 'returnSearchResults'));
