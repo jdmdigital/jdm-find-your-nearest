@@ -6,7 +6,9 @@ Forked from SocialEvolution's "Find Your Nearest", this custom JDM WordPress plu
 ## Description
 This plug-in creates a custom post type associated with a lat/long calculated from an entered location's address. You can create as many entries as you want, associate them with latitude and longitude using the Google Map API and allow your visitors to search for their nearest item by entering their own postal code.
 
-This plug-in has been tested with US zipcodes among others, optimized for Bootstrap v3.x, with numerous improvements over the original plugin, now maintained by SocialEvolution.
+It has been tested with US zipcodes among others, optimized for Bootstrap v3.x, with numerous improvements over the original plugin, now maintained by SocialEvolution. 
+
+**NOTE:** This plugin was custom-built for a client and should (probably) NOT be used for other clients.  Feel free to fork it, if you want to repurpose the code.
 
 ## Installation
 1. Make sure you have the GitHub Updater plugin [installed and setup](http://labs.jdmdigital.co/plugins/github-updates/)
@@ -18,6 +20,12 @@ This plug-in has been tested with US zipcodes among others, optimized for Bootst
 1. The plugin includes a widget to enable searching. "FYN - Search Form" simply adds a search form to your sidebar.
 
 ## Changelog
+
+**2.2.0**
+
+* Add WCA Links to getall_services() and getall_service_icons() functions
+* Update version number to v2.2
+* Create release (also v2.2)
 
 **2.0.0**
 
