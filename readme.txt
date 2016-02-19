@@ -3,7 +3,7 @@ Contributors: jdm-labs
 Tags: location, distance, find, finder, postcode, zipcode, locator, nearest
 Requires at least: 3.0.0
 Tested up to: 4.4.2
-Stable tag: 2.0.0
+Stable tag: 2.1
 
 Forked from SocialEvolution's "Find Your Nearest", this custom JDM plugin creates a custom post type associated with a lat/long, which can then be sorted by distance from a postal code entered into a search field.
 
