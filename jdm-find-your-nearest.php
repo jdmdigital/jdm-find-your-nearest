@@ -4,7 +4,7 @@
 * Plugin Name: JDM Find Your Nearest
 * Plugin URI: http://labs.jdmdigital.co/code/jdm-find-your-nearest/
 * Description: "Find Your Nearest" creates a custom post type which can be associated with a latitude and longitude calculated from your local postal code, which can then be sorted by distance from a postal code entered into a search field.
-* Version: 2.0.0
+* Version: 2.1
 * Text Domain: jdm-find-your-nearest
 * Domain Path: /languages
 * Author: JDM Digital
@@ -18,7 +18,7 @@
 
 $options= get_option('aphs_FYN_options');
 
-$options['version'] = '2.0.0';
+$options['version'] = '2.1';
 
 update_option('aphs_FYN_options', $options);
 
@@ -93,19 +93,50 @@ if(!function_exists('getall_services')) {
 	}
 }
 
-// Updated in v2
+// Updated in v2.1 for WCA
 if(!function_exists('getall_service_icons')) {
 	function getall_service_icons() {
 		$postID = get_the_ID();
 		$term_list = wp_get_post_terms( $postID, 'service_category', array("fields" => "all") );
-		$html = '<p class="margin-left"><strong>Services Offered:</strong></p>'."\n".'<ul class="list-inline list-services">'."\n";
+		$html = '<p class="margin-left"><strong>Request Services:</strong></p>'."\n".'<ul class="list-inline list-services">'."\n";
 		foreach($term_list as $term_single) {
 			if(($term_single->term_id) != 118) {
-				// Services "should" have a term ID greater than 30.
-				$html .= '	<li id="'.$term_single->term_id.'" class="service-list-icon"><span class="btn btn-link" data-toggle="tooltip" title="'.$term_single->name.'"><i class="icon-'.$term_single->slug.'"></i></span></li>'."\n";
-				//links dont work
-				//$html .= '	<li id="'.$term_single->term_id.'" class="service-list-icon"><a href="../../'.$term_single->slug.'" class="btn btn-link" data-toggle="tooltip" title="'.$term_single->name.'"><i class="icon-'.$term_single->slug.'"></i></a></li>'."\n";
-			}
+				// Hauling (ID 118) is not a service, so don't show it.
+				//$html .= '	<li id="'.$term_single->term_id.'" class="service-list-icon"><span class="btn btn-link" data-toggle="tooltip" title="'.$term_single->name.'"><i class="icon-'.$term_single->slug.'"></i></span></li>'."\n";
+				
+				switch ($term_single->slug) {
+					case 'recycling':
+						$servicelink = get_permalink(1397);
+						break;
+						
+					case 'residential-dumpsters':
+						$servicelink = get_permalink(1389);
+						break;
+						
+					case 'portable-toilets':
+						$servicelink = get_permalink(1394);
+						break;
+						
+					case 'trash-collection':
+						$servicelink = get_permalink(1393);
+						break;
+						
+					case 'roll-off-collection':
+						$servicelink = get_permalink(1387);
+						break;
+						
+					case 'special-waste':
+						$servicelink = get_permalink(1391);
+						break;
+						
+					default:
+						$servicelink = get_permalink(1070);
+						break;
+				}
+				
+				$html .= '	<li id="'.$term_single->term_id.'" class="service-list-icon"><a href="'.$servicelink.'" class="btn btn-link" data-toggle="tooltip" title="'.$term_single->name.'"><i class="icon-'.$term_single->slug.'"></i></a></li>'."\n";
+				//no links here: $html .= '	<li id="'.$term_single->term_id.'" class="service-list-icon"><span class="btn btn-link" data-toggle="tooltip" title="'.$term_single->name.'"><i class="icon-'.$term_single->slug.'"></i></span></li>'."\n";
+			}//end foreach
 		}
 		$html .= '</ul>'. "\n";
 		return $html;
