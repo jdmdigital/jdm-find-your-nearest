@@ -21,6 +21,12 @@ It has been tested with US zipcodes among others, optimized for Bootstrap v3.x, 
 
 ## Changelog
 
+**2.3.0**
+
+* Small edits to WCA Links for getall_services() and getall_service_icons() functions
+* Update version number to v2.3
+* Create release (also v2.3)
+
 **2.2.0**
 
 * Add WCA Links to getall_services() and getall_service_icons() functions
