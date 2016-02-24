@@ -4,7 +4,7 @@
 * Plugin Name: JDM Find Your Nearest
 * Plugin URI: http://labs.jdmdigital.co/code/jdm-find-your-nearest/
 * Description: "Find Your Nearest" creates a custom post type which can be associated with a latitude and longitude calculated from your local postal code, which can then be sorted by distance from a postal code entered into a search field.
-* Version: 2.3
+* Version: 2.4
 * Text Domain: jdm-find-your-nearest
 * Domain Path: /languages
 * Author: JDM Digital
@@ -18,7 +18,7 @@
 
 $options= get_option('aphs_FYN_options');
 
-$options['version'] = '2.3';
+$options['version'] = '2.4';
 
 update_option('aphs_FYN_options', $options);
 
@@ -83,7 +83,7 @@ if(!function_exists('getall_services')) {
 	function getall_services() {
 		$postID = get_the_ID();
 		$term_list = wp_get_post_terms( $postID, 'service_category', array("fields" => "all") );
-		$html = '<p><strong>Request Services:</strong></p>'."\n".'<ul class="nav nav-pills services-list">'."\n";
+		$html = '<p><strong>To request a service, choose from the following:</strong></p>'."\n".'<ul class="nav nav-pills services-list">'."\n";
 		foreach($term_list as $term_single) {
 			if(($term_single->term_id) != 118) {
 				// Hauling (ID 118) is not a service, so don't show it.
@@ -134,7 +134,7 @@ if(!function_exists('getall_service_icons')) {
 	function getall_service_icons() {
 		$postID = get_the_ID();
 		$term_list = wp_get_post_terms( $postID, 'service_category', array("fields" => "all") );
-		$html = '<p class="margin-left"><strong>Request Services:</strong></p>'."\n".'<ul class="list-inline list-services">'."\n";
+		$html = '<p class="margin-left"><strong>To request a service, choose from the following:</strong></p>'."\n".'<ul class="list-inline list-services">'."\n";
 		foreach($term_list as $term_single) {
 			if(($term_single->term_id) != 118) {
 				// Hauling (ID 118) is not a service, so don't show it.
@@ -225,3 +225,4 @@ add_action('wp_ajax_nopriv_return_search_results', array(WPFindYourNearest::ajax
 
 add_action('wp_ajax_return_post_data', array(WPFindYourNearest::ajaxFunctions(), 'returnPostData'));
 add_action('wp_ajax_nopriv_return_post_data', array(WPFindYourNearest::ajaxFunctions(), 'returnPostData'));
+
